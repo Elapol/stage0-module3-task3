@@ -16,6 +16,11 @@ public class ReassigningValues {
         int linkToThird = 4;
         third = linkToThird;
         System.out.println(first + "\n" + second + "\n" + third);
+        linkToFirst = first = 1;
+        linkToSecond = second = 10;
+        linkToThird = third = 100;
+        System.out.println(first + "\n" + second + "\n" + third);
+
 
         
 
